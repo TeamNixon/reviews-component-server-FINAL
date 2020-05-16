@@ -1,0 +1,121 @@
+@font-face{
+  font-family: 'metropolis-regular';
+  src: url('./Metropolis/Metropolis-Regular.otf');
+  font-family: 'metropolis-light';
+  src: url('./Metropolis/Metropolis-Light.otf');
+  font-family: 'metropolis-bold';
+  src: url('./Metropolis/Metropolis-Bold.otf');
+}
+
+.header {
+  font-family: 'metropolis-regular';
+  font-weight: bold;
+}
+
+.ratingBar {
+  font-family: 'metropolis-regular';
+}
+
+.filtersBar {
+  font-family: 'metropolis-regular';
+}
+
+.reviewBar {
+  font-family: 'metropolis-regular';
+}
+
+.toolBar {
+  font-family: 'metropolis-regular';
+}
+
+hr.blackLine {
+  border: 1px solid black;
+}
+
+.writeAReview {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 32px;
+  width: 130px;
+}
+
+.outlineButton {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 32px;
+  width: 130px;
+}
+
+.ratingBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolBar {
+  padding-left: 2%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.06);
+  height: 35px;
+  width: 97%;
+  align-items: center;
+  font-size: 85%;
+}
+
+.required {
+    color: red;
+}
+
+.infotext {
+    color: #777777;
+    font-size: 11px;
+}
+
+.reviewTitle {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#dislikeButton {
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: rgba(0,0,0,0.06);
+  stroke: black;
+  stroke-width: 50;
+}
+
+#likeButton {
+  color: rgba(0,0,0,0.06);
+  stroke: black;
+  stroke-width: 50;
+}
+
+#reviewFlag {
+  color: rgba(0,0,0,0.06);
+  stroke: black;
+  stroke-width: 50;
+}
+
+.reviewUserInfo {
+  padding-top: 7%;
+}
