@@ -35,7 +35,7 @@ class App extends React.Component {
     // ideally this ID will come from the current route,
     // e.g. if your route is /review/:id
     // Then you get the parameter like this:  this.props.match.params.id
-    this.productid = '5ec0521f6aaf68556ff6d0f5'; //change productid based on any id built from the newly seeded data
+    this.productid = 'place id here'; //change productid based on any id built from the newly seeded data
     await this.getProduct();
     await this.getRankings();
     await this.nextPage(0);

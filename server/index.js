@@ -8,7 +8,7 @@ const router = require('./router');
 //const Reviews = require('../database/reviews.model.js');
 
 const app = express();
-const port = 1738;
+const port = 4000;
 
 const mongodbUrl = 'mongodb://localhost:27017/nixon';
 var dbOptions = {
