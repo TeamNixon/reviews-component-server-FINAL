@@ -1,5 +1,7 @@
 # Nixon Reviews Component
 
+* This application is my contribution to the replication of the website www.nixon.com. I have built the review component. You will be able to choose a random item and view the randomly generated reviews for each product. You will be able to view the average rating of the reviews, filter by review rating(s) and even write your own review!
+
 * To start the app, please run the follow commands in three separate terminals:
   1. npm run seed
   2. npm run build
