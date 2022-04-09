@@ -31,7 +31,7 @@
     "eslint-config-hackreactor": "github:hackreactor-labs/eslint-config-hackreactor",
     "express": "^4.17.1",
     "faker": "^4.1.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.28",
     "mongo": "^0.1.0",
     "mongoose": "^5.9.11",
